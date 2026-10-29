@@ -1,0 +1,99 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="bKLbyBvgtIhoIpecLiaW">
+    <mxGraphModel dx="1278" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="staK62cgk6beSBBZRl0Z-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="单次玩家会话内的&lt;div&gt;系统流程&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-5" edge="1" parent="1" source="staK62cgk6beSBBZRl0Z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="玩家首次登录" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-31" edge="1" parent="1" source="staK62cgk6beSBBZRl0Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="公告/邮件/其他红点&lt;div&gt;（系统推送内容）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-34" edge="1" parent="1" source="staK62cgk6beSBBZRl0Z-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-29" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="活跃度内容" vertex="1">
+          <mxGeometry height="390" width="500" x="20" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-14" edge="1" parent="staK62cgk6beSBBZRl0Z-29" source="staK62cgk6beSBBZRl0Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-15" edge="1" parent="staK62cgk6beSBBZRl0Z-29" source="staK62cgk6beSBBZRl0Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-16" edge="1" parent="staK62cgk6beSBBZRl0Z-29" source="staK62cgk6beSBBZRl0Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-18" edge="1" parent="staK62cgk6beSBBZRl0Z-29" source="staK62cgk6beSBBZRl0Z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-11" parent="staK62cgk6beSBBZRl0Z-29" style="rounded=1;whiteSpace=wrap;html=1;" value="补历练点" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-20" edge="1" parent="staK62cgk6beSBBZRl0Z-29" source="staK62cgk6beSBBZRl0Z-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-24" edge="1" parent="staK62cgk6beSBBZRl0Z-29" source="staK62cgk6beSBBZRl0Z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-17" parent="staK62cgk6beSBBZRl0Z-29" style="rounded=1;whiteSpace=wrap;html=1;" value="任务 宝箱 活动" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-26" edge="1" parent="staK62cgk6beSBBZRl0Z-29" source="staK62cgk6beSBBZRl0Z-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="310" />
+              <mxPoint x="250" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-28" edge="1" parent="staK62cgk6beSBBZRl0Z-29" source="staK62cgk6beSBBZRl0Z-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="310" />
+            </Array>
+            <mxPoint x="430" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-8" parent="staK62cgk6beSBBZRl0Z-29" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="玩家判断（今天做什么）&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="175" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-25" parent="staK62cgk6beSBBZRl0Z-29" style="rounded=1;whiteSpace=wrap;html=1;" value="纪行（计入）" vertex="1">
+          <mxGeometry height="40" width="120" x="190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-12" parent="staK62cgk6beSBBZRl0Z-29" style="rounded=1;whiteSpace=wrap;html=1;" value="清树脂" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-19" parent="staK62cgk6beSBBZRl0Z-29" style="rounded=1;whiteSpace=wrap;html=1;" value="秘境 周本 地脉" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-13" parent="staK62cgk6beSBBZRl0Z-29" style="rounded=1;whiteSpace=wrap;html=1;" value="月/半月挑战" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-23" parent="staK62cgk6beSBBZRl0Z-29" style="rounded=1;whiteSpace=wrap;html=1;" value="深渊 剧诗" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-36" edge="1" parent="1" source="staK62cgk6beSBBZRl0Z-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="staK62cgk6beSBBZRl0Z-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;startSize=23;" value="其他系统，探索、活动等" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="staK62cgk6beSBBZRl0Z-35" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=0;startSize=23;" value="退出" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="590" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
